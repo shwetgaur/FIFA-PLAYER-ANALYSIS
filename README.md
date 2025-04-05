@@ -6,8 +6,8 @@
 ---
 
 ## 👥 Group Members
-- **Member 1**: Your Name (Roll Number)
-- **Member 2**: Partner Name (Roll Number)
+- **Member 1**: Shwet Gaur
+- **Member 2**: Saksham Sharma
 
 ---
 
@@ -67,69 +67,65 @@ FIFA_Dimensionality_Reduction_Project/
 │
 └── README/
     └── Project_Overview.txt
-📊 Notebooks & Content
-1_Dataset_Description.ipynb
-Overview of all CSV files
 
-Description of attributes
 
-Comparison of features across years
+---
 
-2_Preprocessing.ipynb
-Cleaning missing values
+## 📊 Notebooks & Content
 
-Selecting relevant numeric features
+### `1_Dataset_Description.ipynb`
+- Overview of all CSV files
+- Description of attributes
+- Comparison of features across years
 
-Feature scaling using StandardScaler
+### `2_Preprocessing.ipynb`
+- Cleaning missing values
+- Selecting relevant numeric features
+- Feature scaling using StandardScaler
+- Merging datasets for analysis
 
-Merging datasets for analysis
+### `3_EDA.ipynb`
+- Distribution plots, correlation heatmaps
+- Trend analysis of player ratings across years
+- Top player analysis by year and country
 
-3_EDA.ipynb
-Distribution plots, correlation heatmaps
+### `4_Models_DimensionalityReduction.ipynb`
+- Applied: **PCA**, **LDA**, **SVD**, **t-SNE**, **MDS**
+- Visualization using 2D/3D plots
+- Explained Variance, Cluster formation, and Separation
 
-Trend analysis of player ratings across years
+### `5_Results_Analysis.ipynb`
+- Performance summary of each technique
+- Comparison of interpretability, cluster quality
+- Final insights and recommendations
 
-Top player analysis by year and country
+---
 
-4_Models_DimensionalityReduction.ipynb
-Applied: PCA, LDA, SVD, t-SNE, MDS
+## 📈 Key Findings
 
-Visualization using 2D/3D plots
+- **PCA** and **t-SNE** offered the most meaningful cluster separation.
+- **LDA** worked well when class labels like player positions were used.
+- **t-SNE** revealed non-linear clusters, ideal for visual interpretation.
+- **SVD** retained structure but didn’t perform well visually.
+- **MDS** was computationally expensive but useful for similarity-based projections.
 
-Explained Variance, Cluster formation, and Separation
+---
 
-5_Results_Analysis.ipynb
-Performance summary of each technique
+## 🚀 How to Run
 
-Comparison of interpretability, cluster quality
+1. Clone or download this repository.
+2. Open the notebooks in Google Colab or Jupyter.
+3. Upload the CSV files to your Drive or Colab session if not using mounted Drive.
+4. Run the notebooks in order (`1 → 5`) for a full walkthrough.
 
-Final insights and recommendations
+---
 
-📈 Key Findings
-PCA and t-SNE offered the most meaningful cluster separation.
+## 🧠 Skills Demonstrated
 
-LDA worked well when class labels like player positions were used.
+- Data Cleaning and Feature Engineering
+- Dimensionality Reduction Techniques
+- Comparative Model Evaluation
+- Data Visualization and Interpretation
 
-t-SNE revealed non-linear clusters, ideal for visual interpretation.
+---
 
-SVD retained structure but didn’t perform well visually.
-
-MDS was computationally expensive but useful for similarity-based projections.
-
-🚀 How to Run
-Clone or download this repository.
-
-Open the notebooks in Google Colab or Jupyter.
-
-Upload the CSV files to your Drive or Colab session if not using mounted Drive.
-
-Run the notebooks in order (1 → 5) for a full walkthrough.
-
-🧠 Skills Demonstrated
-Data Cleaning and Feature Engineering
-
-Dimensionality Reduction Techniques
-
-Comparative Model Evaluation
-
-Data Visualization and Interpretation
