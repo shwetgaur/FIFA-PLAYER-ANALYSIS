@@ -70,7 +70,7 @@ FIFA_Dimensionality_Reduction_Project/
 
 
 ---
-
+---
 ## 📊 Notebooks & Content
 
 ### `1_Dataset_Description.ipynb`
